@@ -48,12 +48,12 @@ Experience the real-time diagnostic engine live on Hugging Face Spaces:
 graph TD
     A[Motor Signal Input] --> B[FFT Spectrum Analysis]
     B --> C[Feature Vectorization]
-    C --> D[PCA Dimensionality Reduction]
+    C --> D[PCA Reduction]
     D --> E[K-NN Classification]
-    E --> F[AURA Dashboard Display]
-    F --> G{Fault Detected?}
-    G -- Yes --> H[Alert & Diagnostic Report]
-    G -- No --> I[Healthy Nominal State]
+    E --> F[AURA Dashboard]
+    F --> G{Fault Detection}
+    G --> H[Alert & Report]
+    G --> I[Healthy State]
 ```
 
 ---
