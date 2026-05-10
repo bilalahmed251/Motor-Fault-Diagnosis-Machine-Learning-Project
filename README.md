@@ -46,14 +46,11 @@ Experience the real-time diagnostic engine live on Hugging Face Spaces:
 ## 📊 Project Architecture
 ```mermaid
 graph TD
-    A[Motor Signal Input] --> B[FFT Spectrum Analysis]
-    B --> C[Feature Vectorization]
-    C --> D[PCA Reduction]
-    D --> E[K-NN Classification]
-    E --> F[AURA Dashboard]
-    F --> G{Fault Detection}
-    G --> H[Alert & Report]
-    G --> I[Healthy State]
+    A[Motor Signal] --> B[FFT Analysis]
+    B --> C[Vectorization]
+    C --> D[PCA 3D]
+    D --> E[K-NN Engine]
+    E --> F[Dashboard]
 ```
 
 ---
